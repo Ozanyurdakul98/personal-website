@@ -5,7 +5,7 @@
   margin: 0;
 }
 body {
-  background-color: cornsilk;
+  background-color: white;
 }
 header {
   background-color: black;
@@ -43,8 +43,8 @@ h3 {
 }
 .section2-1 {
   display: flex;
-  padding: 0 180px;
-  gap: 15px;
+  padding: 70px 250px;
+  gap: 25px;
   flex-direction: column;
 }
 .section2-1 p {
@@ -70,7 +70,16 @@ h3 {
 .section2-1 p:nth-last-of-type(1) {
   align-self: flex-end;
 }
-
+/* This is positioning */
+.section2-1 p:nth-last-of-type(2),
+.section2-1 p:nth-last-of-type(1),
+.section2-1 p:nth-last-of-type(3) {
+  position: relative;
+  bottom: 50px;
+}
+.section3 {
+  background-color: whitesmoke;
+}
 footer {
   padding-top: 200px;
   background-color: white;
@@ -89,3 +98,5 @@ Center content
 Place multiple images next to each other
 Display your tech-stack-list horizontally
 Make content responsively wrap to the next line */
+Add hover effects for section 2
+
