@@ -1,8 +1,76 @@
-body {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
-  background-color: cornsilk;
   margin: 0;
 }
+body {
+  background-color: cornsilk;
+}
+header {
+  background-color: black;
+}
+.navbar {
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  width: 50%;
+  position: absolute;
+  margin-left: 50px;
+  top: 200px;
+  color: white;
+  font-size: 80px;
+}
+h2 {
+  margin-top: 50px;
+  margin-left: 80px;
+  font-size: 50px;
+}
+h3 {
+  text-decoration: underline;
+  margin-bottom: 5px;
+  margin-left: 80px;
+}
+.section1 {
+  position: relative;
+}
+.section2 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.section2-1 {
+  display: flex;
+  padding: 0 180px;
+  gap: 15px;
+  flex-direction: column;
+}
+.section2-1 p {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  padding: 15px;
+  border: 4px solid black;
+}
+.section2-1 p:first-of-type {
+  align-self: center;
+  padding-top: 20px;
+}
+.section2-1 p:nth-last-of-type(4) {
+  align-self: flex-end;
+}
+.section2-1 p:nth-last-of-type(3) {
+  align-self: flex-start;
+}
+.section2-1 p:nth-last-of-type(2) {
+  align-self: center;
+}
+.section2-1 p:nth-last-of-type(1) {
+  align-self: flex-end;
+}
+
 footer {
   padding-top: 200px;
   background-color: white;
@@ -14,3 +82,10 @@ footer p {
   padding-bottom: 100px;
   margin: 0;
 }
+
+/* You could:
+
+Center content
+Place multiple images next to each other
+Display your tech-stack-list horizontally
+Make content responsively wrap to the next line */
