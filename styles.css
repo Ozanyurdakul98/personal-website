@@ -39,6 +39,7 @@ h1 {
 }
 .section2 h3 {
   text-decoration: underline;
+  font-size: 30px;
   margin-bottom: 5px;
   margin-left: 360px;
 }
@@ -89,6 +90,24 @@ h1 {
   background-color: whitesmoke;
   padding: 150px 100px;
 }
+.section3 h3 {
+  text-decoration: underline;
+  font-size: 30px;
+  margin-bottom: 50px;
+  margin-left: 0;
+}
+.event:hover {
+  margin-left: 5px;
+  font-size: 25px;
+  width: 500px;
+  border: 3px solid;
+  border-color: black;
+  color: #ff6a00;
+}
+.event:hover > p.date {
+  color: #ff6a00;
+}
+
 footer {
   padding-top: 200px;
   background-color: white;
