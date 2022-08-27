@@ -142,16 +142,17 @@ div.container-centering1 {
 }
 .image-gallery li img {
   object-fit: cover;
-  width: 100%;
+  /* width: 100%; */
+  min-width: 100%;
   height: 100%;
   vertical-align: middle;
   border-radius: 5px;
 }
 /* to stop the last row images to fill out the whole space  */
-/* .image-gallery::after {
+.image-gallery::after {
   content: "";
   flex-grow: 999;
-} */
+}
 /* This is for the hover overlay */
 .overlay {
   position: absolute;
