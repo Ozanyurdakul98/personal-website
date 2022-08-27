@@ -116,7 +116,7 @@ div.container-centering1 {
   margin-bottom: 100px;
   /* margin-left: 400px; */
 }
-
+/* section4 */
 .event:hover {
   font-size: 25px;
   width: 600px;
@@ -149,10 +149,10 @@ div.container-centering1 {
   border-radius: 5px;
 }
 /* to stop the last row images to fill out the whole space  */
-.image-gallery::after {
+/* .image-gallery::after {
   content: "";
   flex-grow: 999;
-}
+} */
 /* This is for the hover overlay */
 .overlay {
   position: absolute;
@@ -170,7 +170,6 @@ div.container-centering1 {
   align-items: center;
   justify-content: center;
 }
-
 /* hover */
 .image-gallery li:hover .overlay {
   transform: scale(1);
