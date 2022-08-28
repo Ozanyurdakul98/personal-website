@@ -4,6 +4,14 @@
   box-sizing: border-box;
   margin: 0;
 }
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
 /* This is the Owl Selector // Use for next project  */
 /* * + * {
   margin: 1em 0 0;
@@ -15,6 +23,7 @@
 }
 body {
   background-color: white;
+  max-width: 100%;
 }
 header {
   background-color: black;
@@ -34,6 +43,7 @@ h1 {
 }
 ul {
   list-style: none;
+  padding: 0;
 }
 .section1 {
   position: relative;
@@ -43,10 +53,10 @@ ul {
   display: flex;
   justify-content: center;
 }
-div.container-centering1 {
+/* div.container-centering1 {
   max-width: 1000px;
   width: 1000px;
-}
+} */
 .section2 h2 {
   margin-top: 50px;
   margin-left: 180px;
@@ -56,11 +66,11 @@ div.container-centering1 {
   text-decoration: underline;
   font-size: 30px;
   margin-bottom: 5px;
-  padding-left: 360px;
+  /* padding-left: 360px; */
 }
 .section2-1 {
   display: flex;
-  /* padding: 70px 250px; */
+  max-width: 100%;
   gap: 25px;
   flex-direction: column;
   align-items: flex-end;
@@ -140,8 +150,6 @@ div.container-centering1 {
 }
 .image-gallery > li {
   height: 300px;
-  cursor: pointer;
-  position: relative;
   flex: 1 1 auto;
   /* This is for the hover overlay */
   position: relative;
@@ -150,24 +158,21 @@ div.container-centering1 {
 .image-gallery li img {
   object-fit: cover;
   /* width: 100%; */
+  max-width: 100%;
   min-width: 100%;
   height: 100%;
   vertical-align: middle;
   border-radius: 5px;
 }
-.image-gallery li iframe {
-  object-fit: contain;
-  /* width: 100%; */
-  min-width: 100%;
-  height: 100%;
-  vertical-align: middle;
-  border-radius: 5px;
+iframe {
+  width: 100%;
+  aspect-ratio: 16/9;
 }
 /* to stop the last row images to fill out the whole space  */
-/* .image-gallery::after {
+.image-gallery::after {
   content: "";
   flex-grow: 999;
-} */
+}
 /* This is for the hover overlay */
 .overlay {
   position: absolute;
