@@ -11,7 +11,6 @@ body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-  overflow: hidden;
   font-family: "Roboto Condensed", sans-serif;
 }
 body {
@@ -72,6 +71,15 @@ body {
     /* border: 8px dotted orange; */
     border: 4px solid black;
     border-radius: 9px;
+  }
+  .section3 .event:hover {
+    font-size: 25px;
+    width: 300px;
+    border: 3px solid;
+    border-color: #ff6a00;
+  }
+  .section3 .event:hover > p.date {
+    color: #ff6a00;
   }
   .section5 .threeD-socialLinks ul li a {
     text-decoration: none;
@@ -215,16 +223,8 @@ h2 {
 .section3 h3 {
   text-decoration: underline;
   font-size: 30px;
-  margin-bottom: 100px;
+  margin-bottom: 55px;
   /* margin-left: 400px; */
-}
-/* section4 */
-.section4 h3 {
-  text-decoration: underline;
-  font-size: 30px;
-  padding-top: 100px;
-  padding-bottom: 55px;
-  text-align: center;
 }
 .event:hover {
   font-size: 25px;
@@ -234,6 +234,17 @@ h2 {
 }
 .event:hover > p.date {
   color: #ff6a00;
+}
+/* section4 */
+.section4 {
+  margin-bottom: 55px;
+}
+.section4 h3 {
+  text-decoration: underline;
+  font-size: 30px;
+  padding-top: 100px;
+  padding-bottom: 55px;
+  text-align: center;
 }
 .image-gallery {
   display: flex;
@@ -256,15 +267,26 @@ h2 {
   vertical-align: middle;
   border-radius: 5px;
 }
-iframe {
+.iframeStyle {
+  position: relative;
+  overflow: hidden;
   width: 100%;
   aspect-ratio: 16/9;
 }
+.iframeStyle iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
 /* to stop the last row images to fill out the whole space  */
-.image-gallery::after {
+/* .image-gallery::after {
   content: "";
   flex-grow: 999;
-}
+} */
 /* This is for the hover overlay */
 .overlay {
   position: absolute;
@@ -290,6 +312,25 @@ iframe {
   position: relative;
   height: 500px;
   width: 100%;
+}
+.section5 h3 {
+  text-decoration: underline;
+  font-size: 30px;
+  padding-top: 100px;
+  padding-bottom: 55px;
+  text-align: center;
+}
+.section5 h4 {
+  text-decoration: underline;
+  font-size: 20px;
+  padding-top: 200px;
+  text-align: center;
+}
+.section5 ol {
+  list-style-type: none;
+  font-size: 15px;
+  text-align: center;
+  padding: 0;
 }
 .threeD-socialLinks {
   width: 100%;
