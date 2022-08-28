@@ -53,10 +53,9 @@ ul {
   display: flex;
   justify-content: center;
 }
-/* div.container-centering1 {
-  max-width: 1000px;
-  width: 1000px;
-} */
+div.container-centering1 {
+  width: 100%;
+}
 .section2 h2 {
   margin-top: 50px;
   margin-left: 180px;
@@ -105,13 +104,13 @@ ul {
 .section2-1 p:nth-last-of-type(1) {
   align-self: flex-end;
 }
-/* This is positioning */
-.section2-1 p:nth-last-of-type(2),
+/* This is positioning /but causing responsiveness issues */
+/* .section2-1 p:nth-last-of-type(2),
 .section2-1 p:nth-last-of-type(1),
 .section2-1 p:nth-last-of-type(3) {
   position: relative;
   bottom: 150px;
-}
+} */
 .section3 {
   background-color: whitesmoke;
   padding-top: 100px;
