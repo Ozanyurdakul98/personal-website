@@ -24,24 +24,45 @@ body {
 /* ALTERNATE CSS STYLESHEET AREA */
 @media screen and (max-width: 480px) {
   body {
-    background-color: lightgreen;
+    background-color: ;
+  }
+  header > .navbar {
+    font-size: 14px;
   }
   section > h1 {
-    width: 50%;
     position: absolute;
-    margin-left: 50px;
-    top: 200px;
+    top: 20%;
     color: white;
-    font-size: 10px;
+    font-size: 10vw;
+    margin-left: 10px;
   }
   .section2-1 p {
     width: 70%;
+  }
+  .container-centering1 > h2 {
+    font-size: 10vw;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 30px;
+    text-align: center;
+  }
+  .section2 .container-centering1 > h3 {
+    font-size: 7vw;
+    text-decoration: underline;
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+    padding-bottom: 9px;
   }
 }
 /* ALTERNATE CSS STYLESHEET AREA END */
 
 header {
   background-color: black;
+}
+.navbar {
+  color: white;
+  text-align: center;
 }
 /* This is responsiv design for img*/
 .section1 img {
@@ -56,11 +77,6 @@ h1 {
   color: white;
   font-size: 80px;
 }
-.navbar {
-  color: white;
-  text-align: center;
-}
-
 ul {
   list-style: none;
   padding: 0;
@@ -76,14 +92,14 @@ ul {
 div.container-centering1 {
   width: 100%;
 }
-.section2 h2 {
+h2 {
   margin-top: 50px;
   margin-left: 180px;
   font-size: 50px;
 }
-.section2 h3 {
+.section2 > h3 {
   text-decoration: underline;
-  font-size: 30px;
+  font-size: 39px;
   margin-bottom: 5px;
   /* padding-left: 360px; */
 }
