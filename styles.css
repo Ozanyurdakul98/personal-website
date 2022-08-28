@@ -20,19 +20,34 @@ body {
 /* * + * {
   margin: 1em 0 0;
 } */
-/* This is responsiv design */
+
+/* ALTERNATE CSS STYLESHEET AREA */
+@media screen and (max-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+  section > h1 {
+    width: 50%;
+    position: absolute;
+    margin-left: 50px;
+    top: 200px;
+    color: white;
+    font-size: 10px;
+  }
+  .section2-1 p {
+    width: 70%;
+  }
+}
+/* ALTERNATE CSS STYLESHEET AREA END */
+
+header {
+  background-color: black;
+}
+/* This is responsiv design for img*/
 .section1 img {
   width: 100%;
   aspect-ratio: 16/9;
 }
-header {
-  background-color: black;
-}
-.navbar {
-  color: white;
-  text-align: center;
-}
-
 h1 {
   width: 50%;
   position: absolute;
@@ -41,6 +56,11 @@ h1 {
   color: white;
   font-size: 80px;
 }
+.navbar {
+  color: white;
+  text-align: center;
+}
+
 ul {
   list-style: none;
   padding: 0;
@@ -77,7 +97,7 @@ div.container-centering1 {
 .section2-1 p {
   display: flex;
   flex-direction: column;
-  width: 350px;
+  /* width: 50%; */
   padding: 15px;
   border: 4px solid black;
   border-radius: 9px;
