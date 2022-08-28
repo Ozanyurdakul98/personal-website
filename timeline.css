@@ -19,7 +19,7 @@
   /* (B1) VERTICAL LINE */
   content: "";
   width: 5px;
-  background-color: white;
+  background-color: black;
 
   /* (B2) POSITION TO THE LEFT */
   position: absolute;
