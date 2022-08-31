@@ -37,34 +37,16 @@ body {
     font-size: 10vw;
     margin-left: 10px;
   }
-  .section2 {
-    margin-bottom: 35px;
+  body .card-s__header-s {
+    max-width: 80%;
   }
-  .section2 .container-centering1 .section2-1 p {
-    width: 50%;
-    font-size: 3vw;
-    border: 2px solid black;
-    border-radius: 9px;
-    margin: 0;
+  body .card-s__card-c p {
+    width: auto;
+    font-size: 5px;
   }
-  .container-centering1 > h2 {
-    font-size: 10vw;
-    width: 90%;
-    margin: 0 auto;
-    padding-top: 30px;
-    text-align: center;
-  }
-  .section2 .container-centering1 > h3 {
-    font-size: 7vw;
-    text-decoration: underline;
-    margin: 0 auto;
-    width: 90%;
-    text-align: center;
-    padding-bottom: 9px;
-  }
-  .section2 .container-centering1 .section2-1 p:hover,
-  .section2 .container-centering1 .section2-1 p:active,
-  .section2 .container-centering1 .section2-1 p:target {
+  .card-s .container-centering1 .card-s__card-c p:hover,
+  .card-s .container-centering1 .card-s__card-c p:active,
+  .card-s .container-centering1 .card-s__card-c p:target {
     font-size: 5vw;
 
     width: 70%;
@@ -114,7 +96,11 @@ body {
   .section5 .threeD-socialLinks ul li a span {
     display: none;
   }
+  .card-s__header-s {
+    margin: 0 auto;
+  }
 }
+
 /* ALTERNATE CSS STYLESHEET AREA END */
 
 header {
@@ -146,33 +132,35 @@ ul {
 .section1 {
   position: relative;
 }
-/* unneccesarry */
-.section2 {
-  display: flex;
-  justify-content: center;
+
+.card-s {
+  height: 100%;
 }
-div.container-centering1 {
-  width: 100%;
+.card-s__header-s {
+  max-width: 50%;
+  text-align: center;
 }
-h2 {
+.card-s__header-s h2 {
   margin-top: 50px;
-  margin-left: 180px;
-  font-size: 50px;
+  font-size: 70px;
 }
-.section2 h3 {
+.card-s__header-s h3 {
   text-decoration: underline;
   font-size: 30px;
-  width: 100%;
-  text-align: center;
-  margin-bottom: 5px;
-  /* padding-left: 360px; */
 }
-.section2-1 {
-  display: flex;
-  gap: 25px;
-  flex-direction: column;
+
+.card-s__card-c {
+  display: grid;
+  justify-items: center;
+  gap: 20px;
+  grid-template-areas:
+    "B C D"
+    "F G H"
+    "J K L"
+    "N O P"
+    "R S T";
 }
-.section2-1 p {
+.card-s__card-c p {
   display: flex;
   flex-direction: column;
   width: 350px;
@@ -180,36 +168,44 @@ h2 {
   border: 4px solid black;
   border-radius: 9px;
 }
-.section2-1 p:hover {
+.card-s__card-c p:hover {
   font-size: 25px;
   width: 450px;
   /* border: 8px dotted orange; */
   border-style: initial;
 }
-.section2-1 p:first-of-type {
+.card-s__card-c p:first-of-type {
   align-self: center;
   padding-top: 20px;
 }
-.section2-1 p:nth-last-of-type(4) {
-  align-self: flex-end;
-  margin-right: 10%;
+
+.card-s__card-c--card1 {
+  grid-area: C;
 }
-.section2-1 p:nth-last-of-type(3) {
-  align-self: flex-start;
-  margin-left: 10%;
+.card-s__card-c--card2 {
+  grid-area: H;
 }
-.section2-1 p:nth-last-of-type(2) {
-  align-self: center;
+.card-s__card-c--card3 {
+  grid-area: F;
 }
-.section2-1 p:nth-last-of-type(1) {
-  align-self: flex-end;
-  margin-right: 10%;
-  margin-bottom: 35px;
+.card-s__card-c--card4 {
+  grid-area: K;
 }
+.card-s__card-c--card5 {
+  grid-area: P;
+}
+
+.card-s__card-c--card7 {
+  grid-area: N;
+}
+.card-s__card-c--card8 {
+  grid-area: S;
+}
+
 /* This is positioning /but causing responsiveness issues */
-/* .section2-1 p:nth-last-of-type(2),
-.section2-1 p:nth-last-of-type(1),
-.section2-1 p:nth-last-of-type(3) {
+/* .card-s__card-c p:nth-last-of-type(2),
+.card-s__card-c p:nth-last-of-type(1),
+.card-s__card-c p:nth-last-of-type(3) {
   position: relative;
   bottom: 150px;
 } */
@@ -356,4 +352,3 @@ Display your tech-stack-list horizontally
 Add hover effects for section 2
 Make content responsively wrap to the next line 
 Only use h3 in section if h2 is included above it in the section*/
-
