@@ -1,3 +1,5 @@
+@import url(./styles/cards.css);
+
 *,
 *::after,
 *::before {
@@ -24,9 +26,6 @@ body {
 
 /* ALTERNATE CSS STYLESHEET AREA */
 @media screen and (max-width: 480px) {
-  body {
-    background-color: ;
-  }
   header > .navbar {
     font-size: 14px;
   }
@@ -36,23 +35,6 @@ body {
     color: white;
     font-size: 10vw;
     margin-left: 10px;
-  }
-  body .card-s__header-s {
-    max-width: 80%;
-  }
-  body .card-s__card-c p {
-    width: auto;
-    font-size: 5px;
-  }
-  .card-s .container-centering1 .card-s__card-c p:hover,
-  .card-s .container-centering1 .card-s__card-c p:active,
-  .card-s .container-centering1 .card-s__card-c p:target {
-    font-size: 5vw;
-
-    width: 70%;
-    /* border: 8px dotted orange; */
-    border: 4px solid black;
-    border-radius: 9px;
   }
   .section3 .event:hover {
     font-size: 25px;
@@ -96,9 +78,6 @@ body {
   .section5 .threeD-socialLinks ul li a span {
     display: none;
   }
-  .card-s__header-s {
-    margin: 0 auto;
-  }
 }
 
 /* ALTERNATE CSS STYLESHEET AREA END */
@@ -131,75 +110,6 @@ ul {
 }
 .section1 {
   position: relative;
-}
-
-.card-s {
-  height: 100%;
-}
-.card-s__header-s {
-  max-width: 50%;
-  text-align: center;
-}
-.card-s__header-s h2 {
-  margin-top: 50px;
-  font-size: 70px;
-}
-.card-s__header-s h3 {
-  text-decoration: underline;
-  font-size: 30px;
-}
-
-.card-s__card-c {
-  display: grid;
-  justify-items: center;
-  gap: 20px;
-  grid-template-areas:
-    "B C D"
-    "F G H"
-    "J K L"
-    "N O P"
-    "R S T";
-}
-.card-s__card-c p {
-  display: flex;
-  flex-direction: column;
-  width: 350px;
-  padding: 15px;
-  border: 4px solid black;
-  border-radius: 9px;
-}
-.card-s__card-c p:hover {
-  font-size: 25px;
-  width: 450px;
-  /* border: 8px dotted orange; */
-  border-style: initial;
-}
-.card-s__card-c p:first-of-type {
-  align-self: center;
-  padding-top: 20px;
-}
-
-.card-s__card-c--card1 {
-  grid-area: C;
-}
-.card-s__card-c--card2 {
-  grid-area: H;
-}
-.card-s__card-c--card3 {
-  grid-area: F;
-}
-.card-s__card-c--card4 {
-  grid-area: K;
-}
-.card-s__card-c--card5 {
-  grid-area: P;
-}
-
-.card-s__card-c--card7 {
-  grid-area: N;
-}
-.card-s__card-c--card8 {
-  grid-area: S;
 }
 
 /* This is positioning /but causing responsiveness issues */
