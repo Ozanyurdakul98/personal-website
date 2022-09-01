@@ -1,35 +1,3 @@
-@media screen and (max-width: 480px) {
-  .card-s__header-s {
-    margin: 0 auto;
-  }
-  body .card-s__header-s {
-    max-width: 80%;
-  }
-  body .card-s__card-c p {
-    width: auto;
-    font-size: 5px;
-  }
-  html body .card-s__card-c--click {
-    font-size: 25px;
-    width: 100%;
-    border-style: initial;
-    background-color: white;
-    position: absolute;
-    bottom: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .card-s .container-centering1 .card-s__card-c p:hover,
-  .card-s .container-centering1 .card-s__card-c p:active,
-  .card-s .container-centering1 .card-s__card-c p:target {
-    font-size: 5vw;
-    width: 70%;
-    border: 4px solid black;
-    border-radius: 9px;
-  }
-}
-
 .card-s {
   height: 100%;
 }
@@ -102,4 +70,35 @@
   text-align: center;
   font-size: 30px;
   border: none;
+}
+@media screen and (max-width: 480px) {
+  .card-s__header-s {
+    margin: 0 auto;
+  }
+  body .card-s__header-s {
+    max-width: 80%;
+  }
+  body .card-s__card-c p {
+    width: auto;
+    font-size: 5px;
+  }
+  html body .card-s__card-c--click {
+    font-size: 25px;
+    width: 100%;
+    border-style: initial;
+    background-color: white;
+    position: absolute;
+    bottom: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-s .container-centering1 .card-s__card-c p:hover,
+  .card-s .container-centering1 .card-s__card-c p:active,
+  .card-s .container-centering1 .card-s__card-c p:target {
+    font-size: 5vw;
+    width: 70%;
+    border: 4px solid black;
+    border-radius: 9px;
+  }
 }
