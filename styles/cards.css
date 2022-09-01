@@ -25,7 +25,14 @@
     "N O P"
     "R S T";
 }
-.card-s__card-c p {
+.card-s__card-c--card1,
+.card-s__card-c--card2,
+.card-s__card-c--card3,
+.card-s__card-c--card4,
+.card-s__card-c--card5,
+.card-s__card-c--card6,
+.card-s__card-c--card7,
+.card-s__card-c--card8 {
   display: flex;
   flex-direction: column;
   width: 50%;
@@ -78,27 +85,22 @@
   body .card-s__header-s {
     max-width: 80%;
   }
-  body .card-s__card-c p {
+  .card-s__card-c--card1,
+  .card-s__card-c--card2,
+  .card-s__card-c--card3,
+  .card-s__card-c--card4,
+  .card-s__card-c--card5,
+  .card-s__card-c--card6,
+  .card-s__card-c--card7,
+  .card-s__card-c--card8 {
     width: auto;
     font-size: 5px;
   }
-  html body .card-s__card-c--click {
-    font-size: 25px;
-    width: 100%;
-    border-style: initial;
-    background-color: white;
+  .card-s__card-c--click {
     position: absolute;
-    bottom: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .card-s .container-centering1 .card-s__card-c p:hover,
-  .card-s .container-centering1 .card-s__card-c p:active,
-  .card-s .container-centering1 .card-s__card-c p:target {
-    font-size: 5vw;
-    width: 70%;
-    border: 4px solid black;
-    border-radius: 9px;
+    width: 80vw;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 25px;
   }
 }
