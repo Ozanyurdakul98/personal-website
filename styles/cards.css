@@ -78,7 +78,7 @@
   font-size: 30px;
   border: none;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   .card-s__header-s {
     margin: 0 auto;
   }
@@ -98,6 +98,9 @@
   }
   .card-s__card-c--click {
     position: absolute;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
     width: 80vw;
     border: 1px solid black;
     background-color: white;

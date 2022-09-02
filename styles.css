@@ -16,6 +16,7 @@ body {
 body {
   background-color: white;
   max-width: 100%;
+  position: relative;
 }
 /* This is the Owl Selector // Use for next project  */
 /* * + * {
@@ -23,7 +24,7 @@ body {
 } */
 
 /* ALTERNATE CSS STYLESHEET AREA */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   header > .navbar {
     font-size: 14px;
   }
@@ -72,7 +73,7 @@ body {
     padding-right: 0;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   .section5 .threeD-socialLinks ul li a span {
     display: none;
   }
