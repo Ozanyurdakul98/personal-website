@@ -31,60 +31,6 @@ body {
 } */
 
 /* ALTERNATE CSS STYLESHEET AREA */
-@media screen and (max-width: 600px) {
-  header > .navbar {
-    font-size: 14px;
-  }
-  section > h1 {
-    position: absolute;
-    top: 20%;
-    color: white;
-    font-size: 10vw;
-    margin-left: 10px;
-  }
-  .section3 .event:hover {
-    font-size: 25px;
-    width: 300px;
-    border: 3px solid;
-    border-color: #ff6a00;
-  }
-  .section3 .event:hover > p.date {
-    color: #ff6a00;
-  }
-  .section5 .threeD-socialLinks ul li a {
-    text-decoration: none;
-    display: absolute;
-    display: flex;
-    justify-content: center;
-    width: 70px;
-    height: 80px;
-    background: #fff;
-    text-align: left;
-    padding-left: 0;
-    transform: rotate(-30deg) skew(25deg) translate(0, 0);
-    transition: 0.5s;
-    box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.5);
-  }
-  .threeD-socialLinks ul li a .fa {
-    font-size: 40px;
-    color: #262626;
-    line-height: 80px;
-    transition: 0.5s;
-    padding-right: 0;
-  }
-  .threeD-socialLinks ul li a .fa {
-    font-size: 40px;
-    color: #262626;
-    line-height: 80px;
-    transition: 0.5s;
-    padding-right: 0;
-  }
-}
-@media screen and (max-width: 600px) {
-  .section5 .threeD-socialLinks ul li a span {
-    display: none;
-  }
-}
 
 /* ALTERNATE CSS STYLESHEET AREA END */
 
@@ -95,13 +41,16 @@ header {
   color: white;
   text-align: center;
 }
-/* This is responsiv design for img*/
-.section1 img {
+.welcome-s {
+  position: relative;
+}
+
+.welcome-s img {
   width: 100%;
   aspect-ratio: 16/9;
 }
 h1 {
-  width: 40%;
+  width: 40vw;
   position: absolute;
   margin-left: 50px;
   top: 28%;
@@ -112,142 +61,8 @@ h1 {
 }
 ul {
   list-style: none;
-  padding: 0;
-}
-.section1 {
-  position: relative;
 }
 
-/* This is positioning /but causing responsiveness issues */
-/* .card-s__card-c p:nth-last-of-type(2),
-.card-s__card-c p:nth-last-of-type(1),
-.card-s__card-c p:nth-last-of-type(3) {
-  position: relative;
-  bottom: 150px;
-} */
-.section3 {
-  background-color: whitesmoke;
-  padding-top: 100px;
-  padding-bottom: 150px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.section3 h3 {
-  text-decoration: underline;
-  font-size: 30px;
-  margin-bottom: 55px;
-  /* margin-left: 400px; */
-}
-.event:hover {
-  font-size: 25px;
-  width: 600px;
-  border: 3px solid;
-  border-color: #ff6a00;
-}
-.event:hover > p.date {
-  color: #ff6a00;
-}
-/* section4 */
-.section4 {
-  margin-bottom: 55px;
-}
-.section4 h3 {
-  text-decoration: underline;
-  font-size: 30px;
-  padding-top: 100px;
-  padding-bottom: 55px;
-  text-align: center;
-}
-.image-gallery {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-.image-gallery > li {
-  height: 300px;
-  flex: 1 1 auto;
-  /* This is for the hover overlay */
-  position: relative;
-  cursor: pointer;
-}
-.image-gallery li img {
-  object-fit: cover;
-  /* width: 100%; */
-  max-width: 100%;
-  min-width: 100%;
-  height: 100%;
-  vertical-align: middle;
-  border-radius: 5px;
-}
-.iframeStyle {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  aspect-ratio: 16/9;
-}
-.iframeStyle iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-}
-/* to stop the last row images to fill out the whole space  */
-/* .image-gallery::after {
-  content: "";
-  flex-grow: 999;
-} */
-/* This is for the hover overlay */
-.overlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: rgba(57, 57, 57, 0.502);
-  top: 0;
-  left: 0;
-  transform: scale(0);
-  transition: all 0.2s 0.1s ease-in-out;
-  color: #fff;
-  border-radius: 5px;
-  /* center overlay text */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-/* hover */
-.image-gallery li:hover .overlay {
-  transform: scale(1);
-}
-.section5 {
-  position: relative;
-  height: 500px;
-  width: 100%;
-}
-.section5 h3 {
-  text-decoration: underline;
-  font-size: 30px;
-  padding-top: 100px;
-  padding-bottom: 55px;
-  text-align: center;
-}
-.section5 h4 {
-  text-decoration: underline;
-  font-size: 20px;
-  padding-top: 200px;
-  text-align: center;
-}
-.section5 ol {
-  list-style-type: none;
-  font-size: 15px;
-  text-align: center;
-  padding: 0;
-}
-.threeD-socialLinks {
-  width: 100%;
-}
 footer {
   padding-top: 200px;
   background-color: white;
@@ -268,3 +83,21 @@ Display your tech-stack-list horizontally
 Add hover effects for section 2
 Make content responsively wrap to the next line 
 Only use h3 in section if h2 is included above it in the section*/
+
+@media screen and (max-width: 600px) {
+  header > .navbar {
+    font-size: 14px;
+  }
+  .welcome-s img {
+    width: 100%;
+    height: 50vh;
+    aspect-ratio: 16/9;
+  }
+  section > h1 {
+    position: absolute;
+    top: 20%;
+    color: white;
+    font-size: 10vw;
+    margin-left: 10px;
+  }
+}

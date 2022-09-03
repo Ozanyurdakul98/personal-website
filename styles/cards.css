@@ -12,7 +12,7 @@
 }
 .card-s__header-s h3 {
   text-decoration: underline;
-  font-size: 30px;
+  font-size: var(--h3-mobile-size);
 }
 
 .card-s__card-c {
@@ -121,7 +121,7 @@
     left: 0;
     margin: 0 auto;
     width: 85vw;
-    height: auto;
+    height: 25vh;
     border: 1px solid black;
     background-color: aliceblue;
     font-size: 20px;
@@ -132,6 +132,7 @@
   } */
   .cardButton1 ul {
     list-style: none;
+    padding: 0;
   }
   .cardButton1 ul li:before {
     content: "\00BB \0020";
@@ -140,6 +141,7 @@
   } */
   .cardButton3 ul {
     list-style: none;
+    padding: 0;
   }
   .cardButton3 ul li:before {
     content: "\00BB \0020";
@@ -159,18 +161,21 @@
   }
   .cardButton4 ul {
     list-style: none;
+    padding: 0;
   }
   .cardButton4 ul li:before {
     content: "\00BB \0020";
   }
   .cardButton5 ul {
     list-style: none;
+    padding: 0;
   }
   .cardButton5 ul li:before {
     content: "\00BB \0020";
   }
   .cardButton6 ul {
     list-style: none;
+    padding: 0;
   }
   .cardButton6 ul li:before {
     content: "\00BB \0020";

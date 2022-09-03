@@ -1,0 +1,86 @@
+/* imgGallery-s */
+.imgGallery-s {
+  margin-bottom: 55px;
+}
+.imgGallery-s-c__heading {
+  text-decoration: underline;
+  font-size: 30px;
+  padding-top: 100px;
+  padding-bottom: 55px;
+  text-align: center;
+}
+.imgGallery-s-c__imgLists-c {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.imgGallery-s-c__imgLists-c > li {
+  height: 300px;
+  flex-grow: 1;
+  /* This is for the hover overlay */
+  position: relative;
+  cursor: pointer;
+}
+.imgGallery-s-c__imgLists-c li img {
+  object-fit: cover;
+  max-width: 100%;
+  min-width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.iframeStyle {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  aspect-ratio: 16/9;
+  border-radius: 20px;
+}
+.iframeStyle iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+/* to stop the last row images to fill out the whole space  */
+/* .imgGallery-s-c__imgLists::after {
+    content: "";
+    flex-grow: 999;
+  } */
+/* This is for the hover overlay */
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(57, 57, 57, 0.502);
+  top: 0;
+  left: 0;
+  transform: scale(0);
+  transition: all 0.3s 0.2s ease-in-out;
+  color: #fff;
+  border-radius: 50%;
+  /* center overlay text */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* hover */
+.imgGallery-s-c__imgLists-c li:hover .overlay {
+  transform: scale(1);
+}
+@media screen and (max-width: 600px) {
+  .imgGallery-s-c__heading {
+    font-size: var(--h3-mobile-size);
+  }
+  .imgGallery-s-c__imgLists-c {
+    padding: 0 10px;
+  }
+  .overlay {
+    border-radius: 50%;
+  }
+  .iframeStyle {
+    border-radius: 50%;
+  }
+}

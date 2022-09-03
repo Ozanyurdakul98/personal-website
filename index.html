@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="./styles/cards.css" />
-    <link rel="stylesheet" href="timeline.css" />
-    <link rel="stylesheet" href="3D-socialLinks.css" />
+    <link rel="stylesheet" href="./styles/timeline.css" />
+    <link rel="stylesheet" href="./styles/3D-socialLinks.css" />
+    <link rel="stylesheet" href="./styles/imgGallery.css" />
     <script
       src="https://kit.fontawesome.com/1ea256a700.js"
       crossorigin="anonymous"
@@ -20,7 +21,7 @@
       <nav class="navbar"><p>For a better world full of Robots!</p></nav>
     </header>
     <main>
-      <section class="section1">
+      <section class="welcome-s">
         <img
           src="./pictures/TurkeyDriving.jpg"
           alt="sunset driving in turkey"
@@ -57,60 +58,72 @@
           <p class="card-s__card-c--card8 card8" data-js="card8">Click me!</p>
         </section>
       </section>
-      <section class="section3">
-        <h3>My Timeline (Full Experience on CV)</h3>
+      <section class="timeline-s">
+        <h3>Small chronological Timeline</h3>
+        <h4><a href="#">(Downlaod CV)</a></h4>
         <div class="vtl">
           <div class="event">
             <p class="date">08 May 1998 10:00</p>
-            <p class="txt">Born in Bruck an der Mur in Austria.</p>
+            <p class="txt">Born in Bruck an der Mur in Austria</p>
           </div>
           <div class="event">
-            <p class="date">2008</p>
-            <p class="txt">Me and my mother move to my father to Germany.</p>
+            <p class="date">2006</p>
+            <p class="txt">Moving to Germany</p>
           </div>
           <div class="event">
-            <p class="date">2016</p>
-            <p class="txt">I finish my "Realschule".</p>
-          </div>
-          <div class="event">
-            <p class="date">2016</p>
+            <p class="date">2011</p>
             <p class="txt">
-              The beginning of my "Oberstufengymnasium" for my future Abitur.
+              Beginning Secondary School in Rüsselsheim, Germany.
             </p>
           </div>
           <div class="event">
-            <p class="date">2019</p>
+            <p class="date">08 July 2016</p>
+            <p class="txt">Finishing Secondary School - Realschulabschluss.</p>
+          </div>
+          <div class="event">
+            <p class="date">2016</p>
             <p class="txt">
-              Getting my Abitur from the School director --> my english teacher
+              Beginning High School - Oberstufengymnasium. At weekends first aid
+              instructor.
+            </p>
+          </div>
+          <div class="event">
+            <p class="date">07 June 2019</p>
+            <p class="txt">
+              Getting my High School Diploma from my School Principal, who also
+              was my english teacher
             </p>
           </div>
           <div class="event">
             <p class="date">August 2019</p>
             <p class="txt">
-              Moving to Austria to my Abuela. Trying to go to Bundesheer
-              (Austrian military) for the 6 months military training
+              Moving to Austria. Trying to get in Austrian military training.
+              Working 3 moths at electrical manufacturer
             </p>
           </div>
           <div class="event">
             <p class="date">January 2020</p>
             <p class="txt">
               Moving back to Germany. Working as a Sewage Worker for
-              approximately 1 year
+              approximately 1 year. 1 year as delivery driver for StartUp's
             </p>
           </div>
           <div class="event">
             <p class="date">22 August 2022</p>
             <p class="txt">
               Starting Web Development Bootcamp at
-              <a href="https://www.neuefische.de/en">Neuefische</a>
+              <a href="https://www.neuefische.de/en" style="color: #ff6a00"
+                >Neuefische</a
+              >
+              in a group
             </p>
           </div>
         </div>
       </section>
-      <section class="section4">
-        <div class="gallery-container">
-          <h3>Pics of my last vacation</h3>
-          <ul class="image-gallery">
+      <section class="imgGallery-s">
+        <div class="imgGallery-s-c">
+          <h3 class="imgGallery-s-c__heading">Pics of my last vacation</h3>
+          <ul class="imgGallery-s-c__imgLists-c">
             <li>
               <img src="./pictures/Alanya.jpg" alt="Alanya turkey" />
               <div class="overlay"><span>I &lt;3 Alanya</span></div>
@@ -196,13 +209,13 @@
           </ul>
         </div>
       </section>
-      <section class="section5">
+      <section class="socials-s">
         <h3>My Links</h3>
         <style>
           @import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400");
         </style>
-        <div class="threeD-socialLinks">
-          <ul>
+        <div class="socials-s__list-c">
+          <ul class="socials-s__list-c__list">
             <li>
               <a href="#">
                 <i class="fa fa-linkedin" aria-hidden="true"></i>
@@ -229,13 +242,10 @@
             </li>
           </ul>
         </div>
-        <h4>Contact Me in old common fashion</h4>
-        <ol>
+        <h4>Contact Me</h4>
+        <ol class="socials-s__contact-c">
           <li>
             <p>Email: <a href="#">ozan.yurdakul58@gmail.com</a></p>
-          </li>
-          <li>
-            <p>Phone: <a href="#">+49 12345</a></p>
           </li>
         </ol>
       </section>
