@@ -1,3 +1,10 @@
+/* CSS VARIABLES */
+:root {
+  /* Card-Section */
+  --h2-mobile-size: 38px;
+  --h3-mobile-size: 25px;
+}
+/* DESIGNING STARTS HERE */
 *,
 *::after,
 *::before {
