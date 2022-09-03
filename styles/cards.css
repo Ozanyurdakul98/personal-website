@@ -120,10 +120,59 @@
     right: 0;
     left: 0;
     margin: 0 auto;
-    width: 80vw;
+    width: 85vw;
     height: auto;
     border: 1px solid black;
     background-color: aliceblue;
-    font-size: 25px;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 20px;
+  }
+  /* .cardButton1 {
+  } */
+  .cardButton1 ul {
+    list-style: none;
+  }
+  .cardButton1 ul li:before {
+    content: "\00BB \0020";
+  }
+  /* .cardButton3 {
+  } */
+  .cardButton3 ul {
+    list-style: none;
+  }
+  .cardButton3 ul li:before {
+    content: "\00BB \0020";
+  }
+  .cardButton3 a:visited {
+    color: white;
+  }
+  .cardButton3 a {
+    background-color: crimson;
+    color: floralwhite;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+  .cardButton4 ul {
+    list-style: none;
+  }
+  .cardButton4 ul li:before {
+    content: "\00BB \0020";
+  }
+  .cardButton5 ul {
+    list-style: none;
+  }
+  .cardButton5 ul li:before {
+    content: "\00BB \0020";
+  }
+  .cardButton6 ul {
+    list-style: none;
+  }
+  .cardButton6 ul li:before {
+    content: "\00BB \0020";
   }
 }
