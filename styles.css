@@ -21,7 +21,7 @@ body {
   font-family: "Roboto Condensed", sans-serif;
 }
 body {
-  background-color: white;
+  background-color: floralwhite;
   max-width: 100%;
   position: relative;
 }
@@ -57,7 +57,7 @@ h1 {
   color: white;
   font-size: 10vw;
   font-weight: 900;
-  line-height: 9vw;
+  line-height: 80%;
 }
 ul {
   list-style: none;
@@ -84,13 +84,13 @@ Add hover effects for section 2
 Make content responsively wrap to the next line 
 Only use h3 in section if h2 is included above it in the section*/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1024px) {
   header > .navbar {
     font-size: 14px;
   }
   .welcome-s img {
     width: 100%;
-    height: 50vh;
+    height: 100vh;
     aspect-ratio: 16/9;
   }
   section > h1 {
@@ -98,6 +98,21 @@ Only use h3 in section if h2 is included above it in the section*/
     top: 20%;
     color: white;
     font-size: 10vw;
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 600px) {
+  header > .navbar {
+    font-size: 14px;
+  }
+  .welcome-s img {
+    width: 100%;
+    height: 70vh;
+    aspect-ratio: auto;
+  }
+  section > h1 {
+    color: white;
+    font-size: 5rem;
     margin-left: 10px;
   }
 }

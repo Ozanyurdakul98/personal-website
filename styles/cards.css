@@ -57,6 +57,16 @@
 .card-s__card-c--card1 {
   grid-area: C;
 }
+.card-s__card-c--card1:hover,
+.card-s__card-c--card2:hover,
+.card-s__card-c--card3:hover,
+.card-s__card-c--card4:hover,
+.card-s__card-c--card5:hover,
+.card-s__card-c--card6:hover,
+.card-s__card-c--card7:hover {
+  border-color: #ff6a00;
+  border-top-right-radius: 50%;
+}
 .card-s__card-c--card2 {
   grid-area: H;
 }
@@ -84,7 +94,7 @@
   border: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1024px) {
   .card-s__header-s {
     max-width: 100vw;
   }
@@ -120,13 +130,13 @@
     right: 0;
     left: 0;
     margin: 0 auto;
-    width: 85vw;
+    width: 50vw;
     height: 25vh;
     border: 1px solid black;
     background-color: aliceblue;
     font-size: 20px;
     text-align: left;
-    padding-left: 20px;
+    padding: 20px;
   }
   /* .cardButton1 {
   } */
@@ -176,6 +186,114 @@
   .cardButton6 ul {
     list-style: none;
     padding: 0;
+  }
+  .cardButton6 {
+    height: 27vh;
+  }
+  .cardButton6 ul li:before {
+    content: "\00BB \0020";
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card-s__header-s {
+    max-width: 100vw;
+  }
+  .card-s__header-s h2 {
+    font-size: var(--h2-mobile-size);
+    width: 100vw;
+  }
+  .card-s__header-s h3 {
+    font-size: var(--h3-mobile-size);
+    text-align: center;
+  }
+  .card-s__card-c--card1,
+  .card-s__card-c--card2,
+  .card-s__card-c--card3,
+  .card-s__card-c--card4,
+  .card-s__card-c--card5,
+  .card-s__card-c--card6,
+  .card-s__card-c--card7,
+  .card-s__card-c--card8 {
+    border: 1px solid black;
+    font-size: 18px;
+    height: 100%;
+  }
+  .card-s__card-c--card8 {
+    border: none;
+    font-size: 16px;
+    color: red;
+  }
+  .card-s__card-c--click {
+    align-self: center;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    width: 85vw;
+    height: 20vh;
+    border: 1px solid black;
+    background-color: aliceblue;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 20px;
+  }
+  .card-s__card-c--card6 {
+  }
+  /* .cardButton1 {
+  } */
+  .cardButton1 ul {
+    list-style: none;
+    padding: 0;
+  }
+  .cardButton1 ul li:before {
+    content: "\00BB \0020";
+  }
+  /* .cardButton3 {
+  } */
+  .cardButton3 ul {
+    list-style: none;
+    padding: 0;
+  }
+  .cardButton3 ul li:before {
+    content: "\00BB \0020";
+  }
+  .cardButton3 a:visited {
+    color: white;
+  }
+  .cardButton3 a {
+    background-color: crimson;
+    color: floralwhite;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+
+  .cardButton3 {
+    height: 28vh;
+  }
+  .cardButton4 ul {
+    list-style: none;
+    padding: 0;
+  }
+  .cardButton4 ul li:before {
+    content: "\00BB \0020";
+  }
+  .cardButton5 ul {
+    list-style: none;
+    padding: 0;
+  }
+  .cardButton5 ul li:before {
+    content: "\00BB \0020";
+  }
+  .cardButton6 ul {
+    list-style: none;
+  }
+  .cardButton6 {
+    height: 33vh;
   }
   .cardButton6 ul li:before {
     content: "\00BB \0020";

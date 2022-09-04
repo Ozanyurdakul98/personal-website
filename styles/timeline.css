@@ -100,7 +100,7 @@ div.event::after {
 .event:hover > p.date {
   color: #ff6a00;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1024px) {
   .timeline-s h3 {
     text-align: center;
     font-size: var(--h3-mobile-size);

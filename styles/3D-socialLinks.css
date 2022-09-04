@@ -151,7 +151,7 @@ ul li:hover:nth-child(4) a:after {
   background: #e46880;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1024px) {
   .socials-s__list-c {
     background-color: whitesmoke;
     height: 150px;
@@ -181,12 +181,15 @@ ul li:hover:nth-child(4) a:after {
     display: none;
   }
   .socials-s h4 {
-    font-size: 17px;
+    font-size: 18px;
   }
   .socials-s__contact-c {
     color: white;
   }
-  .socials-s__contact-c a:visited {
+  .socials-s__contact-c--aemail:visited {
+    color: white;
+  }
+  .socials-s__contact-c--aemail {
     color: white;
   }
 }
