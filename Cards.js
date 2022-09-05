@@ -28,13 +28,11 @@ function cardToggleContent(
   cardDesign
 ) {
   cardNumber.addEventListener("click", () => {
+    console.log("startedMain");
     cardNumber.classList.toggle("card-s__card-c--click");
     if (cardNumber.textContent === oldContent) {
       cardNumber.textContent = newContent;
       cardNumber.classList.remove("card-s__card-c--" + classCheck + "--hover");
-      console.log(
-        cardNumber.classList.remove("card-s__card-c--" + classCheck + "--hover")
-      );
     } else {
       cardNumber.textContent = oldContent;
       cardNumber.classList.add("card-s__card-c--" + classCheck + "--hover");
@@ -172,6 +170,21 @@ const card7 = document.querySelector('[data-js="card7"]');
 const card7OldContent = "Capstone Project";
 const card7NewContent = "Has to be filled. (add ButtonLink)";
 const classCheck7 = "card7";
-
+const test = document.querySelector('[data-js="card-s"]');
 card7.textContent = card7OldContent;
 cardToggleContent(card7, card7OldContent, card7NewContent, classCheck7);
+
+// function closePopup(cardNumber) {
+//   console.log("started1");
+//   test.addEventListener("click", () => {
+//     console.log("started2");
+//     if (cardNumber.classList.contains("card-s__card-c--click")) {
+//       cardNumber.classList.remove("card-s__card-c--click");
+//       card7.textContent = card7OldContent;
+//       console.log("started3");
+//     } else {
+//       console.log("Failed");
+//     }
+//   });
+// }
+// closePopup(card7);

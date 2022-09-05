@@ -1,8 +1,7 @@
 .card-s {
-  height: 100%;
+  height: 1200px;
 }
 .card-s__header-s {
-  max-width: 50%;
   text-align: center;
   margin-bottom: 50px;
 }
@@ -45,13 +44,16 @@
   text-align: center;
   min-width: 30%;
   padding: 15px;
+  font-size: 20px;
   border: 4px solid black;
   border-radius: 9px;
+  background-color: lightcoral;
 }
 .card-s__card-c--click {
   font-size: 25px;
   width: 450px;
   border-style: initial;
+  background-color: transparent;
 }
 
 .card-s__card-c--card1 {
@@ -65,7 +67,7 @@
 .card-s__card-c--card6--hover:hover,
 .card-s__card-c--card7--hover:hover {
   border-color: #ff6a00;
-  border-top-right-radius: 50%;
+  border-top-right-radius: 30%;
 }
 .card-s__card-c--card2 {
   grid-area: H;
@@ -92,9 +94,95 @@
   bottom: 0;
   font-size: 30px;
   border: none;
+  background-color: transparent;
+}
+.card-s__header-s {
+  max-width: 100vw;
+}
+.card-s__header-s h2 {
+  font-size: var(--h2-mobile-size);
+  width: 100vw;
+}
+.card-s__header-s h3 {
+  font-size: var(--h3-mobile-size);
+  text-align: center;
+}
+/* .card-s__card-c--card1,
+.card-s__card-c--card2,
+.card-s__card-c--card3,
+.card-s__card-c--card4,
+.card-s__card-c--card5,
+.card-s__card-c--card6,
+.card-s__card-c--card7,
+.card-s__card-c--card8 {
+  padding: 5px;
+  border: 1px solid black;
+  font-size: 18px;
+  height: 100%;
+}
+.card-s__card-c--card8 {
+  border: none;
+  font-size: 16px;
+  color: red;
+} */
+
+/* .cardButton1 {
+} */
+.cardButton1 ul {
+  list-style: none;
+  padding: 0;
+}
+.cardButton1 ul li:before {
+  content: "\00BB \0020";
+}
+/* .cardButton3 {
+} */
+.cardButton3 ul {
+  list-style: none;
+  padding: 0;
+}
+.cardButton3 ul li:before {
+  content: "\00BB \0020";
+}
+.cardButton3 a:visited {
+  color: white;
+}
+.cardButton3 a {
+  align-self: center;
+  background-color: crimson;
+  text-decoration: none;
+  font-size: 16px;
+  text-align: center;
+  width: 170px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.cardButton4 ul {
+  list-style: none;
+  padding: 0;
+}
+.cardButton4 ul li:before {
+  content: "\00BB \0020";
+}
+.cardButton5 ul {
+  list-style: none;
+  padding: 0;
+}
+.cardButton5 ul li:before {
+  content: "\00BB \0020";
+}
+.cardButton6 ul {
+  list-style: none;
+  padding: 0;
+}
+.cardButton6 {
+  height: 27vh;
+}
+.cardButton6 ul li:before {
+  content: "\00BB \0020";
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1400px) {
   .card-s__header-s {
     max-width: 100vw;
   }

@@ -11,7 +11,7 @@
 .socials-s h3 {
   text-decoration: underline;
   font-size: var(--h3-mobile-size);
-  padding-top: 100px;
+  padding-top: 78px;
   padding-bottom: 55px;
   text-align: center;
 }
@@ -40,9 +40,9 @@
   text-align: center;
   padding: 0;
 }
-
 .socials-s__list-c {
-  width: 100%;
+  background-color: whitesmoke;
+  height: 200px;
 }
 ul li a .fa {
   font-size: 40px;
@@ -149,6 +149,15 @@ ul li:hover:nth-child(4) a:before {
 }
 ul li:hover:nth-child(4) a:after {
   background: #e46880;
+}
+.socials-s__contact-c {
+  color: white;
+}
+.socials-s__contact-c--aemail:visited {
+  color: white;
+}
+.socials-s__contact-c--aemail {
+  color: white;
 }
 
 @media screen and (max-width: 1024px) {
