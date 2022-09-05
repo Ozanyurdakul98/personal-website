@@ -31,8 +31,13 @@ function cardToggleContent(
     cardNumber.classList.toggle("card-s__card-c--click");
     if (cardNumber.textContent === oldContent) {
       cardNumber.textContent = newContent;
+      cardNumber.classList.remove("card-s__card-c--" + classCheck + "--hover");
+      console.log(
+        cardNumber.classList.remove("card-s__card-c--" + classCheck + "--hover")
+      );
     } else {
       cardNumber.textContent = oldContent;
+      cardNumber.classList.add("card-s__card-c--" + classCheck + "--hover");
     }
     addHTMLcontent(
       cardNumber,
@@ -73,11 +78,11 @@ const card2 = document.querySelector('[data-js="card2"]');
 const card2OldContent = "Programming Skills";
 const card2NewContent =
   "Shell Scripting, CSS3, HTML5, Vanilla JavaScript, Next.js, Node.js, React, MongoDB, VS Code, GitHub, Git, WordPress, Twilio ";
-// const classCheck2 = "card2"
+const classCheck2 = "card2";
 // const position2 = "beforeend"
 
 card2.textContent = card2OldContent;
-cardToggleContent(card2, card2OldContent, card2NewContent);
+cardToggleContent(card2, card2OldContent, card2NewContent, classCheck2);
 
 //Card 3
 const card3OldContent = "Programming Experience";
@@ -163,9 +168,10 @@ cardToggleContent(
 );
 
 //Card 7
+const card7 = document.querySelector('[data-js="card7"]');
 const card7OldContent = "Capstone Project";
 const card7NewContent = "Has to be filled. (add ButtonLink)";
-const card7 = document.querySelector('[data-js="card7"]');
+const classCheck7 = "card7";
 
 card7.textContent = card7OldContent;
-cardToggleContent(card7, card7OldContent, card7NewContent);
+cardToggleContent(card7, card7OldContent, card7NewContent, classCheck7);

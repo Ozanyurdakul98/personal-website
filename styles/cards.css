@@ -57,13 +57,13 @@
 .card-s__card-c--card1 {
   grid-area: C;
 }
-.card-s__card-c--card1:hover,
-.card-s__card-c--card2:hover,
-.card-s__card-c--card3:hover,
-.card-s__card-c--card4:hover,
-.card-s__card-c--card5:hover,
-.card-s__card-c--card6:hover,
-.card-s__card-c--card7:hover {
+.card-s__card-c--card1--hover:hover,
+.card-s__card-c--card2--hover:hover,
+.card-s__card-c--card3--hover:hover,
+.card-s__card-c--card4--hover:hover,
+.card-s__card-c--card5--hover:hover,
+.card-s__card-c--card6--hover:hover,
+.card-s__card-c--card7--hover:hover {
   border-color: #ff6a00;
   border-top-right-radius: 50%;
 }
@@ -237,8 +237,6 @@
     font-size: 20px;
     text-align: left;
     padding-left: 20px;
-  }
-  .card-s__card-c--card6 {
   }
   /* .cardButton1 {
   } */
