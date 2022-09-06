@@ -28,16 +28,7 @@ function cardToggleContent(
   cardDesign
 ) {
   cardNumber.addEventListener("click", () => {
-    console.log("startedMain");
-    cardNumber.classList.toggle("card-s__card-c--click");
-    if (cardNumber.textContent === oldContent) {
-      cardNumber.textContent = newContent;
-      cardNumber.classList.remove("card-s__card-c--" + classCheck + "--hover");
-    } else {
-      cardNumber.textContent = oldContent;
-      cardNumber.classList.add("card-s__card-c--" + classCheck + "--hover");
-    }
-    addHTMLcontent(
+    handleclick(
       cardNumber,
       oldContent,
       newContent,
@@ -47,6 +38,35 @@ function cardToggleContent(
       cardDesign
     );
   });
+}
+
+function handleclick(
+  cardNumber,
+  oldContent,
+  newContent,
+  classCheck,
+  position,
+  addedHTML,
+  cardDesign
+) {
+  console.log("startedMain");
+  cardNumber.classList.toggle("card-s__card-c--click");
+  if (cardNumber.textContent === oldContent) {
+    cardNumber.textContent = newContent;
+    cardNumber.classList.remove("card-s__card-c--" + classCheck + "--hover");
+  } else {
+    cardNumber.textContent = oldContent;
+    cardNumber.classList.add("card-s__card-c--" + classCheck + "--hover");
+  }
+  addHTMLcontent(
+    cardNumber,
+    oldContent,
+    newContent,
+    classCheck,
+    position,
+    addedHTML,
+    cardDesign
+  );
 }
 
 //Card 1
@@ -180,11 +200,8 @@ cardToggleContent(card7, card7OldContent, card7NewContent, classCheck7);
 //     console.log("started2");
 //     if (cardNumber.classList.contains("card-s__card-c--click")) {
 //       cardNumber.classList.remove("card-s__card-c--click");
-//       card7.textContent = card7OldContent;
 //       console.log("started3");
-//     } else {
-//       console.log("Failed");
 //     }
 //   });
 // }
-// closePopup(card7);
+// setTimeout(() => closePopup(card7), 5000);
