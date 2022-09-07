@@ -76,6 +76,11 @@
   font-size: 25px;
   padding: 20px;
 }
+.project-s__grid-s__description-c--3 p {
+  font-size: 16px;
+  padding-top: 15px;
+  text-align: center;
+}
 .project-s__grid-s__description-c--4 {
   grid-area: D;
 }
@@ -158,6 +163,11 @@
   font-size: 25px;
   padding: 20px;
 }
+.project-s__grid-s2__description-c--3 p {
+  font-size: 16px;
+  padding-top: 15px;
+  text-align: center;
+}
 .project-s__grid-s2__description-c--4 {
   grid-area: D;
 }
@@ -168,6 +178,17 @@
 }
 /* ---------------------------------------------- */
 /* # PROJECT 3 */
+.cardButton {
+  background-color: crimson;
+  color: floralwhite;
+  text-decoration: none;
+  font-size: 16px;
+  text-align: center;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 3px;
+}
 .project-s__grid-s3 {
   display: flex;
   justify-content: center;
@@ -240,13 +261,21 @@
   font-size: 25px;
   padding: 20px;
 }
+.project-s__grid-s3__description-c--3 p {
+  padding-top: 10px;
+}
+.project-s__grid-s3__description-c--3__button-c {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
 .project-s__grid-s3__description-c--4 {
   grid-area: D;
+  padding: 20px;
 }
-.project-s__grid-s3__description-c--4 img {
-  grid-area: D;
-  object-fit: contain;
-  height: 324px;
+.project-s__grid-s3__description-c--4 h3:last-of-type {
+  font-size: 20px;
+  padding-top: 15px;
 }
 /* ---------------------------------------------- */
 
@@ -481,9 +510,9 @@
   }
   .project-s__grid-s3__images-c--1-c {
     grid-area: B;
-    height: 100%;
-    width: 100%;
-    background-image: url(../project2/img2.jpg);
+    height: 150px;
+    width: 240px;
+    background-image: url(../project3/homeWeb.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -496,6 +525,12 @@
   .project-s__grid-s3__images-c--2-c {
     grid-area: A;
     min-width: 0;
+    width: 150px;
+    height: 330px;
+    background-image: url(../project3/homeMob.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   .project-s__grid-s3__images-c--2-c video {
     object-fit: contain;
@@ -563,12 +598,8 @@
   }
   .project-s__grid-s3__description-c--4 {
     grid-area: D;
-    height: 325px;
-    width: 165px;
-    background-size: cover;
-    background-image: url(../project2/img1.jpg);
-  }
-  .project-s__grid-s3__description-c--4 h3 {
-    visibility: hidden;
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 20px;
   }
 }
