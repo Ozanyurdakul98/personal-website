@@ -43,10 +43,13 @@ header {
 }
 .welcome-s {
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .welcome-s img {
-  width: 100%;
+  margin-top: 100px;
+  width: 80%;
   aspect-ratio: 16/9;
 }
 h1 {
@@ -61,6 +64,9 @@ h1 {
 }
 ul {
   list-style: none;
+}
+video {
+  border-radius: 20px;
 }
 
 footer {

@@ -1,5 +1,8 @@
 .card-s {
   height: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .card-s__header-s {
   text-align: center;
@@ -29,6 +32,7 @@
     "J K L"
     "N O P"
     "R S T";
+  width: 80%;
 }
 .card-s__card-c--card1,
 .card-s__card-c--card2,
@@ -43,17 +47,13 @@
   justify-content: center;
   text-align: center;
   min-width: 30%;
+  min-height: 150px;
   padding: 15px;
   font-size: 20px;
   border: 4px solid black;
   border-radius: 9px;
-  background-color: lightcoral;
-}
-.card-s__card-c--click {
-  font-size: 25px;
-  width: 450px;
-  border-style: initial;
-  background-color: transparent;
+  background-color: #ff744b;
+  color: white;
 }
 
 .card-s__card-c--card1 {
@@ -125,7 +125,12 @@
   font-size: 16px;
   color: red;
 } */
-
+.card-s__card-c--click {
+  font-size: 25px;
+  border-style: initial;
+  background-color: transparent;
+  color: #ff744b;
+}
 /* .cardButton1 {
 } */
 .cardButton1 ul {
@@ -144,18 +149,17 @@
 .cardButton3 ul li:before {
   content: "\00BB \0020";
 }
-.cardButton3 a:visited {
-  color: white;
-}
+
 .cardButton3 a {
   align-self: center;
-  background-color: crimson;
+  background-color: white;
   text-decoration: none;
   font-size: 16px;
   text-align: center;
   width: 170px;
   border: 1px solid black;
   border-radius: 10px;
+  color: black;
 }
 .cardButton4 ul {
   list-style: none;
@@ -218,7 +222,7 @@
     right: 0;
     left: 0;
     margin: 0 auto;
-    width: 50vw;
+    width: 350px;
     height: 25vh;
     border: 1px solid black;
     background-color: aliceblue;
@@ -226,6 +230,7 @@
     text-align: left;
     padding: 20px;
   }
+
   /* .cardButton1 {
   } */
   .cardButton1 ul {
@@ -244,18 +249,17 @@
   .cardButton3 ul li:before {
     content: "\00BB \0020";
   }
-  .cardButton3 a:visited {
-    color: white;
-  }
+
   .cardButton3 a {
-    background-color: crimson;
-    color: floralwhite;
+    align-self: center;
+    background-color: white;
     text-decoration: none;
     font-size: 16px;
     text-align: center;
-    width: 100px;
+    width: 170px;
     border: 1px solid black;
     border-radius: 10px;
+    color: black;
   }
   .cardButton4 ul {
     list-style: none;
@@ -344,18 +348,17 @@
   .cardButton3 ul li:before {
     content: "\00BB \0020";
   }
-  .cardButton3 a:visited {
-    color: white;
-  }
+
   .cardButton3 a {
-    background-color: crimson;
-    color: floralwhite;
+    align-self: center;
+    background-color: white;
     text-decoration: none;
     font-size: 16px;
     text-align: center;
     width: 100px;
     border: 1px solid black;
     border-radius: 10px;
+    color: black;
   }
 
   .cardButton3 {

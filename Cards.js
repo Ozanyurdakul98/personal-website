@@ -109,7 +109,7 @@ const card3 = document.querySelector('[data-js="card3"]');
 const classCheck3 = "card3";
 const position3 = "beforeend";
 const addedHTML3 =
-  "<ul><li>Webpages</li><li>That's-My-Quiz WebApp</li><li>Twilio Pranking WebApp's</li><li>WordPress</li></ul> <a href='#'>Go to Project's</a>";
+  "<ul><li>Webpages</li><li>That's-My-Quiz WebApp</li><li>Twilio Pranking WebApp's</li><li>WordPress</li></ul> <a href='#projectSection'>Go to Project's</a>";
 const cardDesign3 = "cardButton3";
 
 card3.textContent = card3OldContent;
