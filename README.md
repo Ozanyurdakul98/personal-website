@@ -6,7 +6,7 @@ I use this Website to showcase myself with a clickable Biography section, a Proj
 
 <div><img src="./assets/readmeFile/readmeBEM1.png" width=50% align="middle"></div>
 
-As you can see the Structure of styling follows
+As you can see the Structure of styling and folders follows
 <a href="http://getbem.com/introduction">BEM</a>.
 
 <!-- this is why the CSS files are organized according to their corresponding component. -->
