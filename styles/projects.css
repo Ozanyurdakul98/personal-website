@@ -387,7 +387,7 @@
     height: 325px;
     width: 165px;
     background-size: cover;
-    background-image: url(../project1/Screenshot_20220906_231315.jpg);
+    background-image: url(../assets/project1/Screenshot_20220906_231315.jpg);
   }
   .project-s__grid-s__description-c--4 h3 {
     visibility: hidden;
@@ -417,7 +417,7 @@
     height: 100%;
     width: 100%;
     border-radius: 20px;
-    background-image: url(../project2/img2.jpg);
+    background-image: url(../assets/project2/img2.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -448,7 +448,7 @@
     grid-area: D;
     height: 365px;
     width: 240px;
-    background-image: url(../project2/img3.jpg);
+    background-image: url(../assets/project2/img3.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -501,7 +501,7 @@
     height: 325px;
     width: 165px;
     background-size: cover;
-    background-image: url(../project2/img1.jpg);
+    background-image: url(../assets/project2/img1.jpg);
   }
   .project-s__grid-s2__description-c--4 h3 {
     visibility: hidden;
@@ -540,7 +540,7 @@
     grid-area: B;
     height: 150px;
     width: 240px;
-    background-image: url(../project3/homeWeb.png);
+    background-image: url(../assets/project3/homeWeb.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -555,7 +555,7 @@
     min-width: 0;
     width: 150px;
     height: 330px;
-    background-image: url(../project3/homeMob.png);
+    background-image: url(../assets/project3/homeMob.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -577,7 +577,7 @@
     grid-area: D;
     height: 365px;
     width: 240px;
-    background-image: url(../project2/img3.jpg);
+    background-image: url(../assets/project2/img3.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -733,7 +733,7 @@
     height: 325px;
     width: 165px;
     background-size: cover;
-    background-image: url(../project1/Screenshot_20220906_231315.jpg);
+    background-image: url(../assets/project1/Screenshot_20220906_231315.jpg);
   }
   .project-s__grid-s__description-c--4 h3 {
     visibility: hidden;
@@ -760,7 +760,7 @@
     grid-area: B;
     height: 100%;
     width: 100%;
-    background-image: url(../project2/img2.jpg);
+    background-image: url(../assets/project2/img2.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -791,7 +791,7 @@
     grid-area: D;
     height: 365px;
     width: 240px;
-    background-image: url(../project2/img3.jpg);
+    background-image: url(../assets/project2/img3.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -844,7 +844,7 @@
     height: 325px;
     width: 165px;
     background-size: cover;
-    background-image: url(../project2/img1.jpg);
+    background-image: url(../assets/project2/img1.jpg);
   }
   .project-s__grid-s2__description-c--4 h3 {
     visibility: hidden;
@@ -883,7 +883,7 @@
     grid-area: B;
     height: 150px;
     width: 240px;
-    background-image: url(../project3/homeWeb.png);
+    background-image: url(../assets/project3/homeWeb.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -898,7 +898,7 @@
     min-width: 0;
     width: 150px;
     height: 330px;
-    background-image: url(../project3/homeMob.png);
+    background-image: url(../assets/project3/homeMob.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -920,7 +920,7 @@
     grid-area: D;
     height: 365px;
     width: 240px;
-    background-image: url(../project2/img3.jpg);
+    background-image: url(../assets/project2/img3.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -1075,7 +1075,7 @@
     height: 325px;
     width: 165px;
     background-size: cover;
-    background-image: url(../project1/Screenshot_20220906_231315.jpg);
+    background-image: url(../assets/project1/Screenshot_20220906_231315.jpg);
   }
   .project-s__grid-s__description-c--4 h3 {
     visibility: hidden;
@@ -1101,7 +1101,7 @@
     grid-area: B;
     height: 100%;
     width: 100%;
-    background-image: url(../project2/img2.jpg);
+    background-image: url(../assets/project2/img2.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -1132,7 +1132,7 @@
     grid-area: D;
     height: 365px;
     width: 240px;
-    background-image: url(../project2/img3.jpg);
+    background-image: url(../assets/project2/img3.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -1185,7 +1185,7 @@
     height: 325px;
     width: 165px;
     background-size: cover;
-    background-image: url(../project2/img1.jpg);
+    background-image: url(../assets/project2/img1.jpg);
   }
   .project-s__grid-s2__description-c--4 h3 {
     visibility: hidden;
@@ -1213,7 +1213,7 @@
     grid-area: B;
     height: 150px;
     width: 240px;
-    background-image: url(../project3/homeWeb.png);
+    background-image: url(../assets/project3/homeWeb.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -1228,7 +1228,7 @@
     min-width: 0;
     width: 150px;
     height: 330px;
-    background-image: url(../project3/homeMob.png);
+    background-image: url(../assets/project3/homeMob.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -1250,7 +1250,7 @@
     grid-area: D;
     height: 365px;
     width: 240px;
-    background-image: url(../project2/img3.jpg);
+    background-image: url(../assets/project2/img3.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
