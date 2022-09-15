@@ -13,7 +13,7 @@ As you can see the Structure of styling follows
 
 ## Sections
 
-### Me and my biography Section 1
+### Me and my biography Section-1
 
 - Reasons to be a Web Developer
 - Programming skills
@@ -23,19 +23,19 @@ As you can see the Structure of styling follows
 - Personal skills
 - Capstone project
 
-### Projects Section 2
+### Projects Section-2
 
 - That's My Quiz
 - Bittegehweg.de
 - Spoilnation
 
-### Pics of my last vacation Section 3
+### Pics of my last vacation Section-3
 
-### Small chronological timeline Section 4
+### Small chronological timeline Section-4
 
 - from birth to today
 
-### Social Links
+### Social Links Section-5
 
 - LinkedIn
 - Twitter
