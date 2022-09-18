@@ -25,6 +25,7 @@ As you can see the Structure of styling and folders follows
 
 ### Projects Section-2
 
+- Rick & Morty
 - That's My Quiz
 - Bittegehweg.de
 - Spoilnation
