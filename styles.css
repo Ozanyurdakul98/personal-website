@@ -101,7 +101,7 @@ Only use h3 in section if h2 is included above it in the section*/
   }
   section > h1 {
     position: absolute;
-    top: 20%;
+    top: 35%;
     color: white;
     font-size: 10vw;
     margin-left: 10px;

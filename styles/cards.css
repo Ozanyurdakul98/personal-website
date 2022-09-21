@@ -20,7 +20,6 @@
 .card-s__card-c {
   margin: 0 5px;
   margin-bottom: 25px;
-  height: 100vh;
   display: grid;
   justify-items: center;
   gap: 20px;
