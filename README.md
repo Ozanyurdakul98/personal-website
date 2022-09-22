@@ -2,7 +2,7 @@
 
 I use this Website to showcase myself with a clickable Biography section, a Project section, a chronological Timeline section, a pictures section and my social links. It's simple made and one of my first project's.
 
-## Overall
+## Content
 
 <div><img src="./assets/readmeFile/readmeBEM1.png" width=50% align="middle"></div>
 
