@@ -11,6 +11,14 @@
   box-sizing: border-box;
   margin: 0;
 }
+body {
+  scroll-behavior: smooth;
+}
+
+#scroll-to-bottom {
+  font-weight: bold;
+  color: green;
+}
 html,
 body {
   width: 100%;
