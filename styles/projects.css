@@ -15,6 +15,7 @@
   justify-content: center;
   gap: 150px;
   background-color: whitesmoke;
+  margin-bottom: 200px;
 }
 .project-s ul {
   list-style: circle;
@@ -182,6 +183,9 @@
 }
 /* ---------------------------------------------- */
 /* # PROJECT 3 */
+.--2 {
+  margin-bottom: 200px;
+}
 .cardButton {
   align-self: center;
   background-color: white;
@@ -872,7 +876,6 @@
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    margin-bottom: 200px;
     background-color: whitesmoke;
   }
   .project-s__grid-s3__images-c {
@@ -1207,7 +1210,6 @@
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    margin-bottom: 200px;
     background-color: whitesmoke;
   }
   .project-s__grid-s3__images-c {
