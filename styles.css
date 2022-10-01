@@ -49,6 +49,28 @@ header {
   color: white;
   text-align: center;
 }
+#button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 15px;
+}
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vmin;
+}
+.welcome > h2 {
+  margin-top: 15px;
+}
 .welcome-s {
   position: relative;
   display: flex;
