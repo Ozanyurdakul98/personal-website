@@ -95,7 +95,7 @@ cardToggleContent(
 const card2 = document.querySelector('[data-js="card2"]');
 const card2OldContent = "Programming Skills";
 const card2NewContent =
-  "Shell Scripting, CSS3, HTML5, Vanilla JavaScript, Next.js, Node.js, React, MongoDB, VS Code, GitHub, Git, WordPress, Twilio ";
+  "CSS3, HTML5, Vanilla JavaScript, Next.js, Node.js, Express.js, APIs, React.js, MongoDB, VS Code, GitHub, Git, WordPress, Twilio ";
 const classCheck2 = "card2";
 // const position2 = "beforeend"
 
