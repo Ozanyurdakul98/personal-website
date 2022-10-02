@@ -101,6 +101,8 @@ video {
 
 footer {
   padding-top: 200px;
+
+  height: 80vmin;
   background-color: white;
 }
 footer p {
