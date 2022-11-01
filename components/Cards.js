@@ -1,14 +1,6 @@
 // MY FUNCTIONS
 
-function addHTMLcontent(
-	cardNumber,
-	oldContent,
-	newContent,
-	classCheck,
-	position,
-	addedHTML,
-	cardDesign
-) {
+function addHTMLcontent(cardNumber, classCheck, position, addedHTML, cardDesign) {
 	if (cardNumber.classList.contains(classCheck)) {
 		cardNumber.classList.toggle(cardDesign);
 		if (cardNumber.classList.contains(cardDesign)) {
